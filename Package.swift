@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -12,6 +12,5 @@ let package = Package(
     ],
     targets: [
         .target(name: "RSKPlaceholderTextView", path: "RSKPlaceholderTextView")
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
